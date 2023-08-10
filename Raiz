@@ -1,0 +1,12 @@
+
+-------- CREDENCIALES DE ROOT -----------
+
+- con el usuario sara mediante el proxy chains accedemos con las credenciales de Sara
+
+-- Buscar permisos de super usuario --
+ - sudo -l
+
+-- acceso a los archivos con los que cunet con permiso de super usuario
+
+--- sudo ls /accounts/
+---- sudo ls /accounts/../root/

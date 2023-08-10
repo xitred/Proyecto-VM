@@ -1,0 +1,8 @@
+------USO DE PROXYCHAINS--------
+ - nano /etc/proxychains4.conf
+ - agragar el proxy en PROXYLIST
+   -- http ip
+ - acceder al proxy
+  -- proxychains ssh -t usr@ip ls -la
+  -- proxychains ssh -t usr@ip rm .bashrc
+  -- proxychains ssh usr@ip

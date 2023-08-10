@@ -1,0 +1,6 @@
+
+- netdiscover -r ip
+- nmap ip
+- nikto -h ip
+- nmap -A ip
+- nmap -Pn --script vuln ip

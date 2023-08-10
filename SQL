@@ -1,0 +1,11 @@
+
+------ INGRESAR A LA BASE DE DATOS -------
+ - mysql -h localhost -u root -p
+ ---- contrseña: root
+-------- EXPLORAR BASE DE DATOS ----------
+
+ - show databases;
+ - use (nombre de la base de datos)
+  --- use SkyTech;
+ - show tables;
+ - select * from (nombre de la tabla);
